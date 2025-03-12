@@ -1,0 +1,88 @@
+Dataset:
+  Calibration:
+    cx: 426
+    cy: 246
+    depth_scale: 1000.0
+    distorted: false
+    fx: 600
+    fy: 600
+    height: 480
+    k1: 0
+    k2: 0
+    k3: 0
+    p1: 0
+    p2: 0
+    width: 848
+  adaptive_pointsize: true
+  dataset_path: datasets/iisyFusion/4-natural-tr
+  pcd_downsample: 128
+  pcd_downsample_init: 32
+  point_size: 0.01
+  sensor_type: depth
+  type: iisyFusion
+Results:
+  eval_rendering: true
+  save_dir: results/datasets_iisyFusion/2025-03-10-15-05-26
+  save_results: true
+  save_trj: true
+  save_trj_kf_intv: 5
+  use_gui: true
+  use_wandb: false
+Training:
+  alpha: 0.9
+  edge_threshold: 1.1
+  gaussian_extent: 1.0
+  gaussian_reset: 2001
+  gaussian_th: 0.7
+  gaussian_update_every: 150
+  gaussian_update_offset: 50
+  init_gaussian_extent: 30
+  init_gaussian_reset: 500
+  init_gaussian_th: 0.005
+  init_gaussian_update: 100
+  init_itr_num: 1050
+  kf_cutoff: 0.3
+  kf_interval: 5
+  kf_min_translation: 0.05
+  kf_overlap: 0.9
+  kf_translation: 0.08
+  lr:
+    cam_rot_delta: 0.003
+    cam_trans_delta: 0.001
+  mapping_itr_num: 150
+  pose_window: 3
+  prune_mode: slam
+  rgb_boundary_threshold: 0.01
+  single_thread: false
+  size_threshold: 20
+  spherical_harmonics: false
+  tracking_itr_num: 100
+  window_size: 8
+inherit_from: configs/rgbd/iisyFusion/base_config.yaml
+model_params:
+  data_device: cuda
+  model_path: ''
+  resolution: -1
+  sh_degree: 0
+  source_path: ''
+  white_background: false
+opt_params:
+  densification_interval: 100
+  densify_from_iter: 500
+  densify_grad_threshold: 0.0002
+  densify_until_iter: 15000
+  feature_lr: 0.0025
+  iterations: 30000
+  lambda_dssim: 0.2
+  opacity_lr: 0.05
+  opacity_reset_interval: 3000
+  percent_dense: 0.01
+  position_lr_delay_mult: 0.01
+  position_lr_final: 1.6e-06
+  position_lr_init: 0.00016
+  position_lr_max_steps: 30000
+  rotation_lr: 0.001
+  scaling_lr: 0.001
+pipeline_params:
+  compute_cov3D_python: false
+  convert_SHs_python: false

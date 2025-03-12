@@ -1,0 +1,18 @@
+inherit_from: "configs/rgbd/openloris/base_config.yaml"
+
+Dataset:
+  dataset_path: "datasets/openloris/cafe"
+  Calibration:
+    fx: 426.795000
+    fy: 426.795000
+    cx: 423.014000
+    cy: 239.270000
+    k1: 0
+    k2: 0
+    p1: 0
+    p2: 0
+    k3: 0
+    distorted: False
+    width: 848
+    height: 480
+    depth_scale: 1000.0
