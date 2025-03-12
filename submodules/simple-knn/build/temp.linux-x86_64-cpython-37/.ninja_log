@@ -1,0 +1,8 @@
+# ninja log v6
+1	10059	1721132935359400124	/home/samuel/dev/repos/MonoGS/submodules/simple-knn/build/temp.linux-x86_64-cpython-37/ext.o	618eeb343f976acc
+6	7358	1721134843546396027	/home/samuel/dev/repos/MonoGS/submodules/simple-knn/build/temp.linux-x86_64-cpython-37/simple_knn.o	53b83d8f2e966d3f
+6	12002	1721134843546396027	/home/samuel/dev/repos/MonoGS/submodules/simple-knn/build/temp.linux-x86_64-cpython-37/ext.o	57b4107546cffd80
+6	28871	1721134843546396027	/home/samuel/dev/repos/MonoGS/submodules/simple-knn/build/temp.linux-x86_64-cpython-37/spatial.o	c5d26262f7b79fb5
+3	6634	1721135198247799784	/home/samuel/dev/repos/MonoGS/submodules/simple-knn/build/temp.linux-x86_64-cpython-37/simple_knn.o	25a6129babf38970
+3	10535	1721135198247799784	/home/samuel/dev/repos/MonoGS/submodules/simple-knn/build/temp.linux-x86_64-cpython-37/ext.o	9e1f530ba2223e9f
+3	26659	1721135198247799784	/home/samuel/dev/repos/MonoGS/submodules/simple-knn/build/temp.linux-x86_64-cpython-37/spatial.o	9cab13be4c1626f9
