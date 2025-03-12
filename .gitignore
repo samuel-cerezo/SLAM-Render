@@ -3,8 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# datasets
+# folders
 datasets/
+results/
 
 # C extensions
 *.so
