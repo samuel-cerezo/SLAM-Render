@@ -46,7 +46,7 @@ We introduce <a href="https://samuel-cerezo.github.io/SLAM&Render">SLAM&Render</
 This work incorporates many open-source codes...
 
 # License
-SLAM&Render is released under a **LICENSE.md**. For a list of code dependencies which are not property of the authors of MonoGS, please check **Dependencies.md**.
+SLAM&Render is released under a **LICENSE.md**.
 
 # Citation
 If you found this code/work to be useful in your own research, please considering citing the following:
