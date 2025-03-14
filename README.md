@@ -25,14 +25,11 @@ Rendering, Gaussian Splatting and SLAM
 
 <p align="center">
   <a href="">
-    <img src="./media/teaser.gif" alt="teaser" width="100%">
-  </a>
-  <a href="">
-    <img src="./media/gui.jpg" alt="gui" width="100%">
+    <img src="./media/light-conditions.png" alt="teaser" width="100%">
   </a>
 </p>
 <p align="center">
-we introduce SLAM&Render, a novel dataset designed to explore the intersection of both domains. It comprises 40 sequences with synchronized RGB, depth, IMU, robot encoder data, and ground truth pose streams.</p>
+We introduce <a href="https://samuel-cerezo.github.io/SLAM&Render">SLAM&Render</a>, a novel dataset designed to explore the intersection of both domains. It comprises 40 sequences with synchronized RGB, depth, IMU, robot encoder data, and ground truth pose streams.</p>
 <br>
 
 # Note
