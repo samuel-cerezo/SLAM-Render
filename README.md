@@ -10,14 +10,16 @@ Rendering, Gaussian Splatting and SLAM
   <p align="center">
     <a href="https://samuel-cerezo.github.io/"><strong>Samuel Cerezo</strong></a>
     ·
-    <a href="https://samuel-cerezo.github.io/"><strong>Samuel Cerezo</strong></a>
+    <a href="https://samuel-cerezo.github.io/"><strong>Gaetano Meli</strong></a>
     ·
-    <a href="https://samuel-cerezo.github.io/"><strong>Samuel Cerezo</strong></a>
+    <a href="https://samuel-cerezo.github.io/"><strong>Tomas Berriel</strong></a>
     ·
-    <a href="https://samuel-cerezo.github.io/"><strong>Samuel Cerezo</strong></a>
+    <a href="https://samuel-cerezo.github.io/"><strong>Kirill Safronov</strong></a>
+    ·
+    <a href="https://samuel-cerezo.github.io/"><strong>Javier Civera</strong></a>
     
   </p>
-  <h3 align="center"> 2025 (Under revision)</h3>
+  <h3 align="center"> 2025 (repository under development)</h3>
 
 [comment]: <> (  <h2 align="center">PAPER</h2>)
   <h3 align="center"><a href="https://samuel-cerezo.github.io/">Paper</a> | <a href="https://samuel-cerezo.github.io/">Video</a> | <a href="https://samuel-cerezo.github.io/">Project Page</a></h3>
