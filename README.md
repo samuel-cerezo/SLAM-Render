@@ -102,7 +102,9 @@ We provide utility scripts to align and use the dataset easily:
 In this section, we provide the evaluation results of the SLAM&Render dataset. The following figures show the key metrics for evaluating the performance of models trained on this dataset:
 
 1. **RMSE ATE Evaluation**
-The following figure illustrates the RMSE ATE results obtained by applying our SLAM model to the dataset's trajectory sequences. This metric is essential for evaluating how well a model predicts the trajectory of the camera or robot over time.
+The following figure illustrates the RMSE ATE results obtained for setup-4 under cold conditions. 
+The trajectory result using MonoGS is shown in a). Similarly when kinematic data as initial seed is used, the result is shown in b).
+
 
 ![RMSE ATE Evaluation](./media/ATE-trajectories.png)
 
