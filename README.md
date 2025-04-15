@@ -20,7 +20,7 @@
 
 Explore the **SLAM&Render** dataset with this short video showcasing the five key sequences included in the project. Click below to watch the video!
 
-[![SLAM&Render Overview - 5 Sequences](./media/slam_render_overview_thumbnail.jpg)](https://www.youtube.com/watch?v=_s-tQMSZHXU)
+[![SLAM&Render Overview - 5 Sequences](./media/overview_thumbnail.png)](https://www.youtube.com/watch?v=_s-tQMSZHXU)
 
 > Watch the full introduction to the **SLAM&Render** dataset and see how the dataset integrates neural rendering, Gaussian splatting, and SLAM in action.
 ---
