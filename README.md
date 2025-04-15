@@ -27,15 +27,21 @@ Explore the **SLAM&Render** dataset with this short video showcasing the five ke
 
 ---
 
-## 📌 Overview
+## 📌 **Overview**
 
-Existing datasets fail to include the specific challenges of two fields: 
-- **Multi-modality** and **sequentiality** in SLAM.
-- **Generalization across viewpoints and lighting** in Neural Rendering.
+🚨 **Current Datasets' Limitations:**
+Existing datasets fail to address critical challenges in the following fields:
 
-We introduce **SLAM&Render**, a novel dataset designed to explore the intersection of both domains. It includes:
-- 40 real-world sequences.
-- Synchronized RGB, depth, IMU, robot encoders, and ground-truth poses.
+- 🧩 **Multi-modality** and **Sequentiality** in **SLAM**.
+- 🌍 **Generalization across Viewpoints** and **Lighting Conditions** in **Neural Rendering**.
+
+---
+
+✨ **Introducing SLAM&Render**:
+A novel dataset designed to explore the intersection of both **SLAM** and **Neural Rendering**, covering:
+
+- 📊 **40 Real-World Sequences**.
+- 🔄 Synchronized **RGB**, **Depth**, **IMU**, **Robot Kinematics**, and **Ground-Truth Poses**.
 
 ---
 
@@ -48,7 +54,7 @@ sequence_name/
 ├── rgb/                          # RGB images (30 Hz)
 ├── depth/                        # Aligned depth images
 ├── robot_data/joint_states.txt   # Robot joint encoders (25 Hz)
-├── robot_data/flange_poses.txt   # Forward kinematics pose
+├── robot_data/flange_poses.txt   # Forward kinematics pose (25 Hz)
 ├── associations.txt              # Association between images
 ├── imu.txt                       # Accelerometer + gyroscope (210 Hz)
 ├── groundtruth_raw.csv           # Raw MoCap ground truth (120 Hz)
