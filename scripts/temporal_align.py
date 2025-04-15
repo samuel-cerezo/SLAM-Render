@@ -26,9 +26,5 @@ def main():
     print((matched_gt_poses[i]))
 
     
-
 if __name__ == '__main__':
     main()
-
-# example:
-#           python3 fFlange2world.py --path /Volumes/SSD/archivos/KUKA_dev/environment_modeling/ROSBAGS/1-dark-tr

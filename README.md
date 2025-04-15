@@ -122,7 +122,7 @@ If you find this dataset useful, please cite us:
 ```bibtex
 @misc{slamrender2025,
   title={SLAM\&Render: A Benchmark for the Intersection Between Neural Rendering and SLAM},
-  author={Samuel Cerezo and Gaetano Meli and Tomas Berriel and Kirill Safronov and Javier Civera},
+  author={Samuel Cerezo and Gaetano Meli and Tomas Berriel Martins and Kirill Safronov and Javier Civera},
   year={2025},
 }
 ```
@@ -132,8 +132,6 @@ If you find this dataset useful, please cite us:
 ## 🌐 Links
 
 - 📄 [Project Page](https://samuel-cerezo.github.io/SLAM&Render)
-- 📦 [Demo Viewer (GaussianSplats3D)](https://samuel-cerezo.github.io/models/4-natural.ply)
-
 ---
 
 

@@ -1,0 +1,9 @@
+numpy>=1.18
+matplotlib>=3.0
+pandas>=1.0
+scipy>=1.4
+opencv-python>=4.0
+tqdm>=4.0
+requests>=2.0
+pyyaml>=5.0
+rosbags>=0.9.0
