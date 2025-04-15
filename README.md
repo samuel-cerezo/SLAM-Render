@@ -3,16 +3,16 @@
   <p align="center">
     <a href="https://samuel-cerezo.github.io/"><strong>Samuel Cerezo</strong></a> ·
     <a><strong>Gaetano Meli</strong></a> ·
-    <a><strong>Tomas Berriel</strong></a> ·
+    <a><strong>Tomas Berriel M.</strong></a> ·
     <a><strong>Kirill Safronov</strong></a> ·
     <a><strong>Javier Civera</strong></a>
   </p>
-  <h3 align="center">2025 (repository under development)</h3>
+  <h3 align="center">2025</h3>
   <p align="center"><a>Paper</a> | <a>Video</a> | <a href="https://samuel-cerezo.github.io/SLAM&Render.html">Project Page</a></p>
 </p>
 
 <p align="center">
-  <img src="./media/light-conditions.png" alt="teaser" width="100%">
+  <img src="./media/light-conditions.png" alt="teaser" width="80%">
 </p>
 ---
 
@@ -20,7 +20,7 @@
 
 Explore the **SLAM&Render** dataset with this short video showcasing the five key sequences included in the project. Click below to watch the video!
 
-[![SLAM&Render Introduction](https://img.youtube.com/vi/_s-tQMSZHXU/0.jpg)](https://www.youtube.com/watch?v=_s-tQMSZHXU)
+[![SLAM&Render Overview - 5 Sequences](./media/slam_render_overview_thumbnail.jpg)](https://www.youtube.com/watch?v=_s-tQMSZHXU)
 
 > Watch the full introduction to the **SLAM&Render** dataset and see how the dataset integrates neural rendering, Gaussian splatting, and SLAM in action.
 ---
