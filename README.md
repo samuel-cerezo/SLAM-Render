@@ -105,16 +105,18 @@ In this section, we provide the evaluation results of the SLAM&Render dataset. T
 The following figure illustrates the RMSE ATE results obtained for setup-4 under cold conditions. 
 The trajectory result using MonoGS is shown in a). Similarly when kinematic data as initial seed is used, the result is shown in b).
 
-
-![RMSE ATE Evaluation](./media/ATE-trajectories.png)
+<p align="center">
+  <img src="./media/ATE-trajectories.png" alt="teaser" width="80%">
+</p>
 
 2. **Novel View Synthesis Evaluation**
 
 We also assess the performance of NVS on the dataset. To highlight the usefulness of the
 independent test camera trajectories, we evaluated the performance of two state-of-the-art baselines: Gaussian Splatting; and FeatSplat. The following image compares the rendered output to the ground truth, highlighting the quality of the reconstruction under different lighting conditions.
 
-![Rendering Quality](./media/nvs_val_vs_test.png)
-
+<p align="center">
+  <img src="./media/nvs_val_vs_test.png" alt="teaser" width="80%">
+</p>
 
 ---
 
