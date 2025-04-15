@@ -121,10 +121,7 @@ independent test camera trajectories, we evaluated the performance of two state-
 ## 🤝 Acknowledgements
 
 This work builds on many open-source projects including:
-- COLMAP
-- GaussianSplats3D
-- ROS/TF
-- Evo (for trajectory evaluation)
+- MonoGS
 
 ---
 
