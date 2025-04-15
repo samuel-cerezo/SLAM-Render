@@ -4,6 +4,10 @@ import requests
 from tqdm import tqdm
 import zipfile
 
+
+
+# TO BE MODIFIED
+
 SEQUENCES = {
     "setup-1-warm-train": "https://zenodo.org/record/.../files/1-warm-train.zip?download=1",
     "setup-1-warm-test": "https://zenodo.org/record/.../files/1-warm-test.zip?download=1",
