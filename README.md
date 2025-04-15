@@ -120,10 +120,8 @@ independent test camera trajectories, we evaluated the performance of two state-
 
 ## 🤝 Acknowledgements
 
-This work builds on many open-source projects including:
+This work includes many open-source projects:
 - MonoGS
-- GaussianSplats3D
-- ROS/TF
 
 ---
 
