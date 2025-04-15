@@ -37,10 +37,11 @@ Each sequence contains:
 sequence_name/
 ├── rgb/               # RGB images (30 Hz)
 ├── depth/             # Aligned depth images
-├── imu.csv            # Accelerometer + gyroscope (200 Hz)
-├── joint_states.csv   # Robot joint encoders (1 kHz)
-├── flange_pose.csv    # Forward kinematics pose
-├── groundtruth.csv    # MoCap ground truth (120 Hz)
+├── imu.txt            # Accelerometer + gyroscope (210 Hz)
+├── robot_data/joint_states.txt   # Robot joint encoders (25 Hz)
+├── robot_data/flange_poses.txt   # Forward kinematics pose
+├── groundtruth_raw.csv    # Raw MoCap ground truth (120 Hz)
+├── groundtruth.txt        #  MoCap ground truth with Unix epoch timestamp(120 Hz)
 ```
 
 > See [`data/README.md`](data/README.md) for full details.
@@ -58,7 +59,7 @@ pip install -r requirements.txt
 To download a sequence:
 
 ```bash
-python scripts/download_data.py --sequence 4-natural
+python scripts/download_data.py --sequence 4-natural-train
 ```
 
 ---
@@ -69,19 +70,32 @@ We provide utility scripts to align and use the dataset easily:
 
 | Script | Description |
 |--------|-------------|
-| `scripts/temporal_align.py` | Align timestamps between RGB and sensor data. |
+| `scripts/temporal_align.py` | Align timestamps between camera and gt data. |
 | `scripts/fFlange2world.py` | Align poses to a world frame using motion capture. |
+| `scripts/ROSBAG2TUM.py` | Convert .bag file into a TUM format. |
+| `scripts/reading_mocap_CSV.py` | Convert mocap raw data into a txt with the corresponding unix epoc timestamp. |
 | `slamrender/alignment_utils.py` | Core functions for spatial and temporal alignment. |
 
 > See the notebook [`notebooks/example_usage.ipynb`](notebooks/example_usage.ipynb) for a full pipeline.
 
 ---
 
-## 🧪 Evaluation
+## 🧪📊 Evaluation
 
-Coming soon:
-- SLAM benchmark scripts (ATE, RPE).
-- Neural Rendering evaluation (PSNR, LPIPS, Chamfer).
+In this section, we provide the evaluation results of the SLAM&Render dataset. The following figures show the key metrics for evaluating the performance of models trained on this dataset:
+
+1. **RMSE ATE Evaluation**
+The following figure illustrates the RMSE ATE results obtained by applying our SLAM model to the dataset's trajectory sequences. This metric is essential for evaluating how well a model predicts the trajectory of the camera or robot over time.
+
+![RMSE ATE Evaluation](./media/ATE-trajectories.png)
+
+2. **Novel View Synthesis Evaluation**
+
+We also assess the performance of NVS on the dataset. To highlight the usefulness of the
+independent test camera trajectories, we evaluated the performance of two state-of-the-art baselines: Gaussian Splatting; and FeatSplat. The following image compares the rendered output to the ground truth, highlighting the quality of the reconstruction under different lighting conditions.
+
+![Rendering Quality](./media/nvs_val_vs_test.png)
+
 
 ---
 
@@ -103,14 +117,13 @@ Released under the [LICENSE.md](LICENSE.md).
 
 ## 📚 Citation
 
-If you find this dataset or code useful, please cite us:
+If you find this dataset useful, please cite us:
 
 ```bibtex
 @misc{slamrender2025,
   title={SLAM\&Render: A Benchmark for the Intersection Between Neural Rendering and SLAM},
   author={Samuel Cerezo and Gaetano Meli and Tomas Berriel and Kirill Safronov and Javier Civera},
   year={2025},
-  howpublished={\url{https://github.com/samuel-cerezo/slam-render}}
 }
 ```
 
