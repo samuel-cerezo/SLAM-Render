@@ -14,6 +14,7 @@
 <p align="center">
   <img src="./media/light-conditions.png" alt="teaser" width="80%">
 </p>
+
 ---
 
 ### 🎬 SLAM&Render: Video Overview
@@ -23,6 +24,7 @@ Explore the **SLAM&Render** dataset with this short video showcasing the five ke
 [![SLAM&Render Overview - 5 Sequences](./media/overview_thumbnail.png)](https://www.youtube.com/watch?v=_s-tQMSZHXU)
 
 > Watch the full introduction to the **SLAM&Render** dataset and see how the dataset integrates neural rendering, Gaussian splatting, and SLAM in action.
+
 ---
 
 ## 📌 Overview
@@ -43,13 +45,14 @@ Each sequence contains:
 
 ```
 sequence_name/
-├── rgb/               # RGB images (30 Hz)
-├── depth/             # Aligned depth images
-├── imu.txt            # Accelerometer + gyroscope (210 Hz)
+├── rgb/                          # RGB images (30 Hz)
+├── depth/                        # Aligned depth images
 ├── robot_data/joint_states.txt   # Robot joint encoders (25 Hz)
 ├── robot_data/flange_poses.txt   # Forward kinematics pose
-├── groundtruth_raw.csv    # Raw MoCap ground truth (120 Hz)
-├── groundtruth.txt        #  MoCap ground truth with Unix epoch timestamp(120 Hz)
+├── associations.txt              # Association between images
+├── imu.txt                       # Accelerometer + gyroscope (210 Hz)
+├── groundtruth_raw.csv           # Raw MoCap ground truth (120 Hz)
+├── groundtruth.txt               # MoCap ground truth with Unix epoch timestamp(120 Hz)
 ```
 
 > See [`data/README.md`](data/README.md) for full details.
