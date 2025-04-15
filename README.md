@@ -14,7 +14,9 @@
 <p align="center">
   <img src="./media/light-conditions.png" alt="teaser" width="100%">
 </p>
+---
 
+[![SLAM&Render Introduction](https://img.youtube.com/vi/_s-tQMSZHXU/0.jpg)](https://www.youtube.com/watch?v=_s-tQMSZHXU)
 ---
 
 ## 📌 Overview
