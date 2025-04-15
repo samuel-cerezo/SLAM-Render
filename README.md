@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">SLAM&Render: A Benchmark for the Intersection Between Neural Rendering, Gaussian Splatting and SLAM</h1>
   <p align="center">
-    <a href="https://samuel-cerezo.github.io/"><strong>Samuel Cerezo</strong></a> ·
+    <a><strong>Samuel Cerezo</strong></a> ·
     <a><strong>Gaetano Meli</strong></a> ·
     <a><strong>Tomas Berriel M.</strong></a> ·
     <a><strong>Kirill Safronov</strong></a> ·
