@@ -91,6 +91,7 @@ We provide utility scripts to align and use the dataset easily:
 | `scripts/fFlange2world.py` | Align poses to a world frame using motion capture. |
 | `scripts/ROSBAG2TUM.py` | Convert .bag file into a TUM format. |
 | `scripts/reading_mocap_CSV.py` | Convert mocap raw data into a txt with the corresponding unix epoc timestamp. |
+| `scripts/download_data.py` | For downloading dataset sequences |
 | `slamrender/alignment_utils.py` | Core functions for spatial and temporal alignment. |
 
 > See the notebook [`notebooks/example_usage.ipynb`](notebooks/example_usage.ipynb) for a full pipeline.
