@@ -3,7 +3,7 @@
   <p align="center">
     <a><strong>Samuel Cerezo</strong></a> ·
     <a><strong>Gaetano Meli</strong></a> ·
-    <a><strong>Tomas Berriel M.</strong></a> ·
+    <a><strong>Tomas Berriel Martins</strong></a> ·
     <a><strong>Kirill Safronov</strong></a> ·
     <a><strong>Javier Civera</strong></a>
   </p>
@@ -113,7 +113,7 @@ The trajectory result using MonoGS is shown in a). Similarly when kinematic data
 2. **Novel View Synthesis Evaluation**
 
 We also assess the performance of NVS on the dataset. To highlight the usefulness of the
-independent test camera trajectories, we evaluated the performance of two state-of-the-art baselines: Gaussian Splatting; and FeatSplat. The following image compares the rendered output to the ground truth, highlighting the quality of the reconstruction under different lighting conditions.
+independent test camera trajectories, we evaluated the performance of two state-of-the-art baselines: Gaussian Splatting; and FeatSplat. The following image compares the rendered output to the ground truth.
 
 <p align="center">
   <img src="./media/nvs_val_vs_test.png" alt="teaser" width="80%">
