@@ -8,8 +8,10 @@
     <a><strong>Javier Civera</strong></a>
   </p>
   <h3 align="center">2025</h3>
-  <p align="center"><a>Paper</a> | <a>Video</a> | <a href="https://samuel-cerezo.github.io/SLAM&Render.html">Project Page</a></p>
+  <p align="center"><a href="https://www.arxiv.org/abs/2504.13713">>ArXiv</a> | <a>Video</a> | <a href="https://samuel-cerezo.github.io/SLAM&Render.html">Project Page</a></p>
 </p>
+
+
 
 <p align="center">
   <img src="./media/light-conditions.png" alt="teaser" width="80%">
@@ -124,7 +126,7 @@ independent test camera trajectories, we evaluated the performance of two state-
 ## 🤝 Acknowledgements
 
 This work includes many open-source projects:
-- MonoGS
+- <a href="https://github.com/muskie82/MonoGS">MonoGS (Gaussian Splatting SLAM)</a> 
 
 ---
 
@@ -139,10 +141,14 @@ Released under the [LICENSE.md](LICENSE.md).
 If you find this dataset useful, please cite us:
 
 ```bibtex
-@misc{slamrender2025,
-  title={SLAM\&Render: A Benchmark for the Intersection Between Neural Rendering and SLAM},
-  author={Samuel Cerezo and Gaetano Meli and Tomas Berriel Martins and Kirill Safronov and Javier Civera},
-  year={2025},
+@misc{cerezo_slamrender,
+      title={SLAM&Render: A Benchmark for the Intersection Between Neural Rendering, Gaussian Splatting and SLAM}, 
+      author={Samuel Cerezo and Gaetano Meli and Tomás Berriel Martins and Kirill Safronov and Javier Civera},
+      year={2025},
+      eprint={2504.13713},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2504.13713}, 
 }
 ```
 
