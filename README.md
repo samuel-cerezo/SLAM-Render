@@ -8,7 +8,7 @@
     <a><strong>Javier Civera</strong></a>
   </p>
   <h3 align="center">2025</h3>
-  <p align="center"><a href="https://www.arxiv.org/abs/2504.13713">>ArXiv</a> | <a>Video</a> | <a href="https://samuel-cerezo.github.io/SLAM&Render.html">Project Page</a></p>
+  <p align="center"><a href="https://www.arxiv.org/abs/2504.13713">ArXiv</a> | <a>Video</a> | <a href="https://samuel-cerezo.github.io/SLAM&Render.html">Project Page</a></p>
 </p>
 
 
